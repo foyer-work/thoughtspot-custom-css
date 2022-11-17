@@ -9,5 +9,5 @@
 }
 
 bk-powered-footer, .bk-powered-footer {
-    display: none;
+    display: none !important;
 }
