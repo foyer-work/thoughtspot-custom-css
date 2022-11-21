@@ -1,3 +1,13 @@
+@media screen and (min-width: 1500px) {
+  html {
+  font-size: 16px !important;
+  }
+  body {
+  zoom: 80% !important;
+  height: 100% !important;
+  }
+}
+
 .pinboard-tab-panel-module__tabPanel {
   border: none !important;
 }
