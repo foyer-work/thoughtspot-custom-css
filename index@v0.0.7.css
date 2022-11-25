@@ -9,6 +9,16 @@
   }
 }
 
+.answer-title-module__titleText {
+  display: block !important;
+  word-break: break-word !important;
+}
+
+.answer-title-module__descriptionText {
+  display: block !important;
+  word-break: break-word !important;
+}
+
 .pinboard-tab-panel-module__tabPanel {
   border: none !important;
 }
@@ -22,7 +32,7 @@
   border-radius: 0 !important;
 }
 
-.pinboard-header-module__embedPinboardHeader > .flex-layout-module__vertical {
+.pinboard-header-module__pinboardHeaderContainer .pinboard-header-module__pinboardHeader .flex-layout-module__vertical {
   display: none !important;
 }
 
