@@ -23,8 +23,19 @@
   border: none !important;
 }
 
+.pinboard-header-module__pinboardHeaderContainer {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 .pinboard-header-module__pinboardHeader {
   padding: 1rem 2rem !important;
+}
+
+.popover-module__positionable:not(.popover-module__positionFixed)[data-popper-reference-hidden=true] {
+  visibility: initial !important;
+  pointer-events: initial !important;
 }
 
 .pinboard-header-module__embedPinboardHeader {
