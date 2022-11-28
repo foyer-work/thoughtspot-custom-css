@@ -14,11 +14,6 @@
   word-break: break-word !important;
 }
 
-.answer-title-module__descriptionText {
-  display: block !important;
-  word-break: break-word !important;
-}
-
 .pinboard-tab-panel-module__tabPanel {
   border: none !important;
 }
