@@ -50,3 +50,7 @@
 bk-powered-footer, .bk-powered-footer {
     display: none !important;
 }
+
+.filter-panel-module__droppableFilterList .flex-layout-module__horizontal::before {
+  content: "Filter: "
+}
