@@ -52,5 +52,8 @@ bk-powered-footer, .bk-powered-footer {
 }
 
 .filter-panel-module__droppableFilterList .flex-layout-module__horizontal::before {
-  content: "Filter: "
+    content: "Filters: ";
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
 }
