@@ -52,3 +52,11 @@ bk-powered-footer, .bk-powered-footer {
     top: 6px;
     margin-right: 10px;
 }
+
+.chartSection .vizWrapper .legend-area .vertical-legend {
+  overflow-x: visible !important;
+}
+
+.chartSection .vizWrapper .chart-legend-container-v2 .legend-item-v2 .label-v2 .legend-text-v2:hover {
+  overflow: visible !important;
+}
