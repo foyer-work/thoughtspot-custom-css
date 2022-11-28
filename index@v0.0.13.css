@@ -9,9 +9,9 @@
   }
 }
 
-.answer-title-module__titleText {
-  display: block !important;
-  word-break: break-word !important;
+.answer-title-module__titleText, 
+.answer-title-module__descriptionTextOneLine {
+  -webkit-line-clamp: 2;
 }
 
 .pinboard-tab-panel-module__tabPanel {
