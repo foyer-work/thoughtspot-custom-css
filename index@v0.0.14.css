@@ -12,6 +12,7 @@
 .answer-title-module__titleText, 
 .answer-title-module__descriptionTextOneLine {
   -webkit-line-clamp: 2;
+    word-break: normal;
 }
 
 .pinboard-tab-panel-module__tabPanel {
